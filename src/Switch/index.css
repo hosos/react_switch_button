@@ -1,0 +1,43 @@
+.comp-switch {
+  display: block;
+  background-color: #bebebe;
+  border: solid 2px #bebebe;
+  border-radius: 80px;
+  box-sizing: 'border-box';
+  display: 'inline-block';
+  width: 60px;
+  height: 30px;
+  position: relative;
+  margin: 10px;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+
+.comp-switch.active {
+  background-color: #0096fb;
+  border: solid 2px #0096fb;
+}
+
+.comp-switch.disabled {
+  background-color: #fff;
+  border: solid 2px #bebebe;
+}
+
+.comp-switch-circle {
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  background-color: #fff;
+  border-radius: 100%;
+  top: 2px;
+  left: 2px;
+  transition: all 300ms ease-in-out;
+}
+
+.comp-switch-circle.active {
+  left: 32px;
+}
+
+.comp-switch-circle.disabled {
+  background-color: #bebebe;
+}
